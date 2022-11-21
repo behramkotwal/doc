@@ -2,7 +2,7 @@
 
 **Which airlines will our customers be able to book with?**
 
-We partner with over 150 airlines; the complete list of airlines is available [here](https://www.atriptech.com/#/airline/list).We keep adding new airlines to our list as and when we partner with them. You can also view the list of airlines under Airline List on ATRIP.
+We partner with over 150 airlines; the complete list of airlines is available [here](https://www.atriptech.com/#/airline/list). We keep adding new airlines to our list as and when we partner with them.
 
 Once you are on board with us, you should be able to offer all the routes available with our partner airlines almost instantly.
 
@@ -10,7 +10,7 @@ Once you are on board with us, you should be able to offer all the routes availa
 
 **Can we test the API functionality before we partner with Atlas?**
 
-We want you to test Atlas API functionality before you make a commitment, so take a minute to fill out [this form](https://atlaslovestravel.com/contact/), and we will get in touch with you within 24 hours. To protect our partner airlines, we need to confirm your details and get you to sign an NDA. As soon as we have verified your identity, your test credentials will be in your inbox. 
+We want you to test Atlas API functionality before you make a commitment, so take a minute to fill out [this form](https://atlaslovestravel.com/contact/), and we will get in touch with you as soon as possible. To protect our partner airlines, we need to confirm your details and get you to sign an NDA. As soon as we have verified your identity, your test credentials will be in your inbox. 
 
 
 
@@ -40,13 +40,13 @@ The L2B ratio will be determined as per the commercial agreement between Atlas a
 
 **Does Atlas deploy cache?**
 
-Atlas API has a general cache pool to save search results data and we can also deploy client-specific cache.
+Atlas API has a general cache pool to save search results data. We can also deploy client-specific cache after understanding the business model of our customer.
 
 
 
 **What should we do if we encounter API failure?**
 
-Atlas will provide a web portal to support ticket booking, ticketing, and post ticketing services in case of API failure. Our developers are currently working hard to build this portal. You can reach out to the API support team or the Customer Service Centre in the interim.
+Atlas will provide a web portal to support booking, ticketing, and post ticketing services in case of API failure. Our developers are currently working hard to build this portal. You can reach out to the API support team or the Customer Service Centre in the interim.
 
 
 
