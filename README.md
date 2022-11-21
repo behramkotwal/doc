@@ -5,7 +5,7 @@
 
 # Quick Start
 
-This guide shows you how Atlas API instantly connects you to over 100 LCCs — opening up new markets for your business.
+This guide shows you how Atlas API instantly connects you to over 150 LCCs — opening up new markets for your business.
 
 The integration is a simple four-step process:
 
@@ -39,7 +39,7 @@ The booking process is relatively simple, as illustrated:
 
 Create an order request to search for flights.
 
-To build an order, you'll need to provide passenger information and itinerary details. Your customers need to enter information such as the number of passengers, origin, destination and travel dates. The ticket fare for passengers under 12 is different, so you need to mention the number of infants or child passengers below 12. LCCs also have a limitation on baggage; passengers need to buy check-in luggage separately, so we ask for the number of bags and maximum baggage weight. 
+To build an order, you'll need to provide passenger information and itinerary details. Your customers need to enter information such as the number of passengers, origin, destination and travel dates. The ticket fare for passengers under 12 is different, so you need to mention the number of infants and/or child passengers below 12. 
 
 Once the request is submitted, we send the search parameters to our robust search cache. The cache will respond with real-time offers in <0.5 sec for partner airlines operating flights between the source and destination cities on the requested date. Atlas algorithm can process over 5000 queries per second (QPS). Currently, you cannot filter the number of search results by airlines. We are working to add this feature so our partner agencies can limit the search results to include only their preferred airlines.
 
@@ -75,14 +75,14 @@ As soon as they submit their details, they will see the detailed itinerary and a
 
 Atlas supports two options for payment:
 
-* Atlas to settle payment with the airline
-* You can directly pay the airline 
+* Atlas to settle payment with the airline (deposit)
+* You can directly pay the airline (pass-through)
 
 If you choose the first option, you pay the total ticket amount plus the technical service fee to Atlas, and Atlas will settle the payment with the airlines on your behalf.
 
 If you choose the second option, we will send your credit card information along with the`IssueTicket` request to the airline. In this case, we will deduct the technical service fee from your account with Atlas. Several airlines support the pass-through option, for which we have added the`supportCreditTransPayment`function in the routing element.
 
-Reference the `orderNo` from the order response when sending the payment request.
+Please provide reference to the `orderNo` from the order response when sending the payment request.
 
 - [payment](./atlas-api-documentation/api-reference/shopping-and-ticketing/payment.md)
 
