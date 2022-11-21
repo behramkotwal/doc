@@ -1,4 +1,4 @@
-# Atlas API Search&Booking
+# Atlas API Search & Booking
 
 **Can our users change the currency to see ticket prices in their local currency with Atlas?**
 
@@ -18,9 +18,9 @@ We charge a technical service fee for every ticket, on top of the airfare and ta
 
 
 
-**Why are critical nodes such as`booking`  `class`and`fare basis`missing from the`segment element schema`?**
+**Why are critical nodes such as `booking`  `class`and `fare basis` missing from the `segment` element schema?**
 
-Contrary to Global Distribution Systems (GDSs), most LCCs do not provide cabin class and fare basis. Hence, these nodes are not mandatory for creating a PNR. Please refer to thecabinelement; the booking code information is only available for airlines who provide it to us.
+Contrary to Global Distribution Systems (GDSs), most LCCs do not provide cabin class and fare basis. Hence, these nodes are not mandatory for creating a PNR. Please refer to the `cabin` element; the booking code information is only available for airlines who provide it to us.
 
 
 
@@ -29,19 +29,19 @@ Contrary to Global Distribution Systems (GDSs), most LCCs do not provide cabin c
 By default, Atlas API will return all available offers in the search response. We will soon add functionality to let you control the number of search results by modifying the API. The default sort order is from lowest fare to highest fare.
 
 
-**What does the `seatCount`element denote in the search response?**
+**What does the `seatCount` element denote in the search response?**
 
 This element returns the remaining seats for the fare. Many LCCs have a high reservation error rate when the passenger count is greater than 4, so Atlas limits the maximum seat count to 4. Please avoid sending more than 4 passengers in the search request.
 
 
 
-**What is the maximum time gap allowed between`search`and`revalidation`?**
+**What is the maximum time gap allowed between`search` and `revalidation`?**
 
 We allow for a maximum time gap of 2 hours. But when the time gap is longer, the possibility of price change is higher.
 
 
 
-**What is the maximum time gap between`revalidation`and`order`?**
+**What is the maximum time gap between `revalidation` and `order`?**
 
 We allow for a maximum time gap of 30 mins. But when the time gap is longer, the possibility of price change is higher.
 
